@@ -1,0 +1,267 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100%;
+        font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height:80px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+#name{
+    margin-left: 70px;
+    width: 50%;
+}
+#fields h4:hover{
+    color:#000428 ;
+}
+#fields{
+     width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    width: 100%;  
+    padding-top: 15px;
+min-height: 50vh;
+color: white;
+background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+display: flex;
+}
+#box1{
+     margin-left: 70px;
+    width: 40%;
+}
+#mainheading{
+font-size: 50px;
+font-weight: bold;
+color: white;
+}
+#subheading{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#domain{
+   font-size: 30px;    
+}
+#box1 p{
+    margin-top:20px;
+    margin-bottom: 20px;
+color: #dcdcdc;
+font-size: 18px;
+}
+#buttons button{ 
+    color: white;  
+border-radius: 8px;
+padding: 12px 25px;
+border-color: white;
+}
+#hire{
+    margin-right: 5px;
+    background-color: #4b6cff;
+}
+#project1{
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+#project1:hover{
+    color: #4b6cff;
+}
+span{
+  color: #4b6cff;  
+}
+.icon{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#box2{
+    width: 60%;
+   
+border-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#image{
+    object-fit: cover;
+    border-radius: 50%;
+     border: 4px solid #4b6cff;
+    height: 60%;
+    width: 40%;
+}
+#about{
+    display: flex;
+    min-height: 350px;
+}
+#box3{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:80px ;
+}
+#image1{
+    object-fit: cover;
+     /* border: 4px solid #4b6cff; */
+    height: 60%;
+    width: 40%;
+    border-radius: 10px;
+}
+#box4{
+    width: 55%;
+    padding-top: 65px;
+    
+}
+#box4 p{
+    margin-top: 10px;
+    color: #6b7280;
+}
+#skill{
+    min-height: 250px;
+    text-align: center;
+}
+#skill h1{
+    padding-top: 15px;
+}
+#skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.type{
+    height: 120px;
+    width: 120px;
+    background-color:#f9f9f9;
+    margin: 10px;
+}
+.talent{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#project{
+    min-height: 420px;
+}
+#project h1{
+    text-align: center;
+    padding-top: 15px;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.pro{
+    height: 320px;
+    width: 23%;
+    background-color: #f9f9f9; 
+    margin-right:90px ;
+    margin-left: 40px;
+}
+.art{
+    width: 100%;
+    height: 200px; 
+    margin-bottom: 5px;   
+}
+.pro p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #6b7280;
+}
+#resume{
+    min-height: 150px;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    display: flex; 
+    color: white;  
+    padding-left: 20px; 
+}
+#download{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#res{
+    margin:50px;
+    width: 50%;
+}
+#res h1{
+    margin-bottom: 10px;
+}
+#download button{
+    background-color: #4b6cff;
+       color: white;  
+border-radius: 8px;
+padding: 12px 25px;
+border-color: white;
+}
+#download button:hover{
+    background-color:#0f0c29 ;
+}
+#contact{
+min-height: 200px;
+background-color: white;
+
+}
+#contacts{
+    display: flex;
+    margin-top: 15px;
+}
+#contact h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.contact{
+    height: 100px;
+    width: 25%;
+    background-color: #f9f9f9; 
+    margin-left:60px ;
+    display: flex;
+    align-items: center;
+}
+.contact i{
+    font-size: 20px;
+   padding: 15px;
+   border-radius: 50%;
+   margin-right: 15px;
+   margin-left: 10px;
+
+}
+.contact h4{
+    margin-bottom: 5px;
+}
+.email{
+   background-color: #e6f2ff; 
+   color: #3b82f6;
+}
+.phone{
+   background-color: #e8fbe8; 
+   color: #22c55e;
+}
+.location{
+    background-color: #f3e8ff;
+    color: #c026d3;
+}
+footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
